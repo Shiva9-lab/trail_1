@@ -23,4 +23,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/6th_page.unity
     guid: fc638905633c52e47ad11f3ff09ee92b
+  - enabled: 1
+    path: Assets/Scenes/8th_page.unity
+    guid: 2029fba42f3f43c4db07d520567eccb4
+  - enabled: 1
+    path: Assets/Scenes/9th_page.unity
+    guid: 155723fc24a124c49852e467df3a4f75
+  - enabled: 1
+    path: Assets/Scenes/10th_page.unity
+    guid: ab8b52f077714444690ffa5661e63875
+  - enabled: 1
+    path: Assets/Scenes/11th_page.unity
+    guid: 4f3b2f3d15554d4408052d51261104f2
+  - enabled: 1
+    path: Assets/Scenes/12th_page.unity
+    guid: 4796ad1b94b441f41a61350c4548b741
+  - enabled: 1
+    path: Assets/Scenes/13th_page.unity
+    guid: e820ffa858aa96b4c9f0cc118f1bf891
+  - enabled: 1
+    path: Assets/Scenes/14th_page.unity
+    guid: 6dad2bcd794084d44974eb5918dd3992
+  - enabled: 1
+    path: Assets/Scenes/15th_page.unity
+    guid: a62663aea29387749896c093c3f84992
+  - enabled: 1
+    path: Assets/Scenes/16th_page.unity
+    guid: fbfcd2768b1c4ab48aee512b7bda795b
+  - enabled: 1
+    path: Assets/Scenes/17th_page.unity
+    guid: dbeef9e1dab5b984ea0c9ee6295882ae
   m_configObjects: {}
