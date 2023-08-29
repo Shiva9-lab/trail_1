@@ -573,7 +573,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 43
+  Priority: 73
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -611,7 +611,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.135
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -641,7 +641,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.764
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -928,11 +928,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 458180571}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
+        m_MethodName: PlayOneShot
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 8300000, guid: e7b2adddba867b5408c7c9e499757437, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
