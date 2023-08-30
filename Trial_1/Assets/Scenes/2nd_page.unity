@@ -220,7 +220,7 @@ MonoBehaviour:
   m_OnDidEndEdit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 97483410}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Name, Assembly-CSharp
         m_MethodName: StoreName
         m_Mode: 1
@@ -370,7 +370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 97483411}
-  - component: {fileID: 97483410}
+  - component: {fileID: 97483412}
   m_Layer: 0
   m_Name: Name Manager
   m_TagString: Untagged
@@ -378,20 +378,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &97483410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97483409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c163d3ac0847f4a46a11a71a1222f71e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 937151701}
-  display: {fileID: 3410941}
 --- !u!4 &97483411
 Transform:
   m_ObjectHideFlags: 0
@@ -407,6 +393,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &97483412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97483409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30ca33cd5a866e47835ee79638cd2f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerName: {fileID: 3410941}
 --- !u!1 &288977227
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,6 +853,18 @@ MonoBehaviour:
       - m_Target: {fileID: 691689965}
         m_TargetAssemblyTypeName: scene_2_3, Assembly-CSharp
         m_MethodName: LoadSecondScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 97483412}
+        m_TargetAssemblyTypeName: New, Assembly-CSharp
+        m_MethodName: Level
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
