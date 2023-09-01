@@ -531,8 +531,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Player name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: df8f22c4582d48c4eb55af03e62bdd3e, type: 2}
-  m_sharedMaterial: {fileID: -5815325889320526235, guid: df8f22c4582d48c4eb55af03e62bdd3e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c5b9d3ea92e9914487348536a3c89fc, type: 2}
+  m_sharedMaterial: {fileID: -2582630159211687283, guid: 5c5b9d3ea92e9914487348536a3c89fc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
